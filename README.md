@@ -50,12 +50,13 @@ This project relies on the following:
     cd ~/ros2_ws/src
     ```
 
-2.  **Clone or Create Your Custom ROS2 Package**:
-    Ensure your custom ROS2 package
-   
+2.  **Clone this repository**:
+    ```bash
+    git clone https://github.com/RaulRangelMB/Hydra-Navigation-UI.git
+    ```
 
 3.  **Build Your ROS2 Workspace**:
-    Navigate to your workspace root and build, ensuring your custom message/service package is built.
+    Navigate to your workspace root and build.
     ```bash
     cd ~/ros2_ws
     colcon build
